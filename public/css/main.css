@@ -23,8 +23,11 @@ body {
     margin-right: auto;
     position: relative;
     border-radius: 10px;
+}
 
-
+.planetCard:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
 }
 
 .grid {
@@ -56,8 +59,9 @@ img {
 .planetCard__header {
     position: absolute;
     top: 0;
-    right: 50%;
+    right: 85%;
     transform: translate(50%, 50%);
+    /* background: rgba(0, 0, 0, 0.4); */
 
 
 }
